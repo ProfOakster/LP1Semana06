@@ -41,15 +41,15 @@ namespace GameSix
         {
             if (powerup == PowerUp.Health)
             {
-                this.health += bonus;
-                if (this.health > 100)
-                    this.health = 100;
+                health += bonus;
+                if (health > 100)
+                    health = 100;
             }
             if (powerup == PowerUp.Shield)
             {
-                this.shield += bonus;
-                if (this.shield > 100)
-                    this.shield = 100;
+                shield += bonus;
+                if (shield > 100)
+                    shield = 100;
             }
         }
 
