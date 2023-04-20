@@ -43,10 +43,15 @@ namespace GameSix
             Console.WriteLine($"{foes[0].GetName()}'s health: {foes[0].GetHealth()}");
             Console.WriteLine($"{foes[0].GetName()}'s shield: {foes[0].GetShield()}");
 
+
             Console.WriteLine($"PowerUps picked up: {Foe.GetPowerupCount()}");
 
+<<<<<<< HEAD
 
             Console.WriteLine("Merci d’utiliser ce programme!");
+=======
+            Console.WriteLine("Obrigado por ter usado este programa!");
+>>>>>>> 09dcf60 (Fix appreciative message)
 
         }
 
