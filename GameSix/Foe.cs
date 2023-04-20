@@ -13,7 +13,7 @@ namespace GameSix
             health = 100;
             shield = 0;
         }
-        public static Foe()
+        static Foe()
         {
             powerupCount = 0;
         }
@@ -58,7 +58,7 @@ namespace GameSix
                 if (shield > 100)
                     shield = 100;
             }
-            
+
             powerupCount += 1;
         }
 

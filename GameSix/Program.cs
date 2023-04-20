@@ -42,6 +42,10 @@ namespace GameSix
 
             Console.WriteLine($"{foes[0].GetName()}'s health: {foes[0].GetHealth()}");
             Console.WriteLine($"{foes[0].GetName()}'s shield: {foes[0].GetShield()}");
+
+            Console.WriteLine($"PowerUps picked up: {Foe.GetPowerupCount()}");
+
         }
+
     }
 }
