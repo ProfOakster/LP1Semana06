@@ -13,31 +13,17 @@ namespace GameSix
             shield = 0;
         }
 
-        public string GetName()
-        {
-            return name;
-        }
+        public string GetName() => name;
 
-        public float GetHealth()
-        {
-            return health;
-        }
+        public float GetHealth() => health;
 
-        public float GetShield()
-        {
-            return shield;
-        }
+        public float GetShield() => shield;
+
 
         public void SetName(string name)
         {
             this.name=name.Trim();
         }
-
-
-
-
-
-
 
         public void TakeDamage(float damage)
         {
