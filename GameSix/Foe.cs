@@ -8,7 +8,7 @@ namespace GameSix
 
         public Foe(string name)
         {
-            this.name = name;
+            this.SetName(name);
             health = 100;
             shield = 0;
         }
