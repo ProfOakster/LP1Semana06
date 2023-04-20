@@ -22,7 +22,7 @@ namespace GameSix
 
         public void SetName(string name)
         {
-            this.name=name.Trim();
+            this.name = name.Trim();
         }
 
         public void TakeDamage(float damage)
@@ -37,7 +37,21 @@ namespace GameSix
             }
         }
 
-
+        public void PickupPowerUp(PowerUp powerup, float bonus)
+        {
+            if (powerup == PowerUp.Health)
+            {
+                this.health += bonus;
+                if (this.health > 100)
+                    this.health = 100;
+            }
+            if (powerup == PowerUp.Shield)
+            {
+                this.shield += bonus;
+                if (this.shield > 100)
+                    this.shield = 100;
+            }
+        }
 
 
 
