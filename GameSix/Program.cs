@@ -46,12 +46,10 @@ namespace GameSix
 
             Console.WriteLine($"PowerUps picked up: {Foe.GetPowerupCount()}");
 
-<<<<<<< HEAD
 
-            Console.WriteLine("Merci d’utiliser ce programme!");
-=======
-            Console.WriteLine("Obrigado por ter usado este programa!");
->>>>>>> 09dcf60 (Fix appreciative message)
+
+            Console.WriteLine("Thank you for using this program!");
+
 
         }
 
